@@ -1,20 +1,79 @@
 body {
+margin: 0;
 font-family: Arial, sans-serif;
-max-width: 1200px;
-margin: auto;
-padding: 40px;
-line-height: 1.6;
-}
- 
-h1 {
-color: #005792;
-font-size: 42px;
-}
- 
-h2 {
 color: #333;
 }
  
-h3 {
-color: #005792;
+.hero img {
+width: 100%;
+display: block;
 }
+ 
+.hero-text {
+text-align: center;
+padding: 50px 20px;
+}
+ 
+.hero-text h1 {
+color: #005792;
+font-size: 48px;
+}
+ 
+.btn {
+background: #005792;
+color: white;
+padding: 12px 20px;
+text-decoration: none;
+border-radius: 5px;
+}
+ 
+.services {
+padding: 60px 20px;
+text-align: center;
+}
+ 
+.services img {
+max-width: 100%;
+border-radius: 10px;
+margin-bottom: 30px;
+}
+ 
+.service-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+gap: 20px;
+max-width: 1200px;
+margin: auto;
+}
+ 
+.card {
+background: #f5f5f5;
+padding: 20px;
+border-radius: 10px;
+}
+ 
+.industries {
+padding: 60px 20px;
+background: #f8f8f8;
+text-align: center;
+}
+ 
+#contact {
+padding: 60px 20px;
+text-align: center;
+}
+Show more lines
+Repository Structure
+
+Your repository should look like:
+
+Plain Text
+truebridgeflooring
+│
+├── index.html
+│
+├── css
+│ └── style.css
+│
+├── Designer (35).png
+├── Designer (36).png
